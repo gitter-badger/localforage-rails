@@ -1,0 +1,3 @@
+[submodule "localforage"]
+	path = localforage
+	url = git@github.com:mozilla/localForage.git
