@@ -33,7 +33,7 @@ another promise implementation, such as [bluebird][1] (rails integration [bluebi
 you can require `nopromise` version instead:
 
 ```javascript
-//= require localforage.nopromise
+//= require localforage.nopromises
 ```
 
 Check out the original source at : https://github.com/mozilla/localForage
