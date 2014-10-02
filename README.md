@@ -26,6 +26,16 @@ Add the following to your Javascript manifest file (`application.js`):
 //= require localforage
 ```
 
+### Promise
+
+`localforage` is shipped with `es6-promise` polyfill. If you'd like to use
+another promise implementation, such as [bluebird][1] (rails integration [bluebird-rails][2]),
+you can require `nopromise` version instead:
+
+```javascript
+//= require localforage.nopromise
+```
+
 Check out the original source at : https://github.com/mozilla/localForage
 
 ## Contributing
@@ -35,3 +45,6 @@ Check out the original source at : https://github.com/mozilla/localForage
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+[1]: https://github.com/petkaantonov/bluebird
+[2]: https://github.com/tomchentw/bluebird-rails
