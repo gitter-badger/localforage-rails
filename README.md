@@ -1,4 +1,5 @@
 # Localforage::Rails
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/tomchentw/localforage-rails?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 localForage is a fully featured offline asynchronous storage library.
 
